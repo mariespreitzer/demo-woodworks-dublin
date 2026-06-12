@@ -63,20 +63,20 @@ export default function Home() {
           backgroundColor: "var(--ground)",
           paddingTop: "clamp(3rem, 8vw, 7rem)",
           paddingBottom: "clamp(2rem, 5vw, 4rem)",
-          overflow: "hidden",
         }}
       >
         <h1
           style={{
             fontFamily: "Rokkitt, serif",
             fontWeight: 800,
-            fontSize: "clamp(4.5rem, 16vw, 15rem)",
+            fontSize: "clamp(2.8rem, 11vw, 10rem)",
             lineHeight: 0.92,
             letterSpacing: "-0.02em",
             color: "var(--ink)",
             marginBottom: "clamp(1rem, 2.5vw, 2rem)",
             textAlign: "center",
-            padding: 0,
+            padding: "0 clamp(1rem, 3vw, 2rem)",
+            width: "100%",
           }}
         >
           WOODWORKS
