@@ -61,9 +61,9 @@ export default function Home() {
       <section
         style={{
           backgroundColor: "var(--ground)",
-          padding: "clamp(3rem, 8vw, 7rem) 2.5rem clamp(2rem, 5vw, 4rem)",
-          maxWidth: "1400px",
-          margin: "0 auto",
+          paddingTop: "clamp(3rem, 8vw, 7rem)",
+          paddingBottom: "clamp(2rem, 5vw, 4rem)",
+          overflow: "hidden",
         }}
       >
         <h1
@@ -75,6 +75,8 @@ export default function Home() {
             letterSpacing: "-0.02em",
             color: "var(--ink)",
             marginBottom: "clamp(1rem, 2.5vw, 2rem)",
+            textAlign: "center",
+            padding: 0,
           }}
         >
           WOODWORKS
@@ -84,6 +86,9 @@ export default function Home() {
             display: "flex",
             flexDirection: "column",
             gap: "0.35rem",
+            maxWidth: "1400px",
+            margin: "0 auto",
+            padding: "0 2.5rem",
           }}
         >
           <p
